@@ -7,6 +7,11 @@
     height: 500px;
     color: white;
 }
+figure>img{
+    height: 100%;
+}
+
+
 @media screen and (max-width:576px) {
     .hide {
         display: none;
@@ -20,9 +25,12 @@
     }
     .step-2{
         flex-direction: column;
+        position: relative;
+        top: 70px;
     }
     .step-2css{
         text-align: center;
         padding: 48px 48px 0px 48px;
+       
     }
 }
