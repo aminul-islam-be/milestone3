@@ -6,7 +6,7 @@
     align-items: center;
     height: 500px;
     color: white;
-
+    
 }
 
 
@@ -15,6 +15,12 @@ figure>img{
 }
 .choose>img{
     height: 70%;
+}
+.burgar{
+    display: none !important;
+}
+.ims{
+    height: 60%;
 }
 
 
@@ -66,5 +72,14 @@ figure>img{
     }
     .k{
         margin: auto;
+    }
+    .Dnone{
+        display: none !important;
+    }
+    .pN{
+        padding-right: 0px !important;
+    }
+    .burgar{
+        display: inline !important;
     }
 }
