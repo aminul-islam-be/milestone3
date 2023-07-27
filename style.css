@@ -1,5 +1,5 @@
 .bg-image-css{
-    background-image: url(images/banner1.png);
+    background-image: url();
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,17 +28,22 @@ figure>img{
     .hide {
         display: none;
     }
+    .hh{
+        font-size: 16px !important;
+    }
+
     .none-css{
         height: auto;
         flex-direction: column;
         position: relative;
         top: 20px;
+        display: none !important;
        
     }
     .step-2{
         flex-direction: column;
         position: relative;
-        top: 70px;
+        bottom: 140px;
     }
     .step-2css{
         text-align: center;
@@ -47,9 +52,10 @@ figure>img{
     }
     .step3{
         flex-direction: column;
+        gap: 26px;
         align-items: center;
         position: relative;
-        top: 24px;
+        bottom: 40px;
     }
     .footer{
         position: relative;
