@@ -82,4 +82,9 @@ figure>img{
     .burgar{
         display: inline !important;
     }
+    .cssC{
+        flex-direction: column;
+        gap: 16px;
+        margin-top: 16px;
+    }
 }
