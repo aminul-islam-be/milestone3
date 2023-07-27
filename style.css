@@ -12,6 +12,7 @@ figure>img{
 }
 
 
+
 @media screen and (max-width:576px) {
     .hide {
         display: none;
@@ -38,5 +39,12 @@ figure>img{
         align-items: center;
         position: relative;
         top: 24px;
+    }
+    .footer{
+        position: relative;
+        top: 24px;
+    }
+    .fot{
+        flex-direction: column;
     }
 }
